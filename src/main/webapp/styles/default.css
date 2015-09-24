@@ -1,1 +1,121 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "UTF-8";
+
+body {
+	background: #f7d8a5;
+	font-family: sans-serif;
+}
+
+/***** menu  ****/
+nav {
+	display: block;
+	background-image: url("/wereldwijnen/images/intro.jpg");
+}
+
+nav h1 {
+	padding-top: 0.2em;
+	text-align: center;
+	color: #f7d8a5;
+	font-family: sans-serif;
+	font-size: 2em;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu img {
+	margin: 0.5em;
+}
+
+.menu img:hover {
+	box-shadow: 0 0 8px yellow;
+}
+
+.gecentreerd {
+	display: block;
+	text-align: center;
+}
+
+/***** soorten  en wijnen ******/
+.soorten h2, .wijnen h2 {
+	font-size: 1.5em;
+	color: #3a2605;
+}
+
+.soorten li {
+	list-style: none;
+	display: inline-block;
+}
+
+.wijnen li {
+	list-style: circle;
+}
+
+.soorten a, .wijnen a {
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #6b470a;
+	text-decoration: none;
+}
+
+.soorten a:hover, .wijnen a:hover {
+	text-decoration: underline;
+}
+
+/***** tables  *****/
+table {
+	margin-top: 2em;
+}
+
+table th {
+	padding: 0.5em 2em 0 0;
+	text-align: left;
+}
+
+input, label {
+	display: block;
+}
+
+input[type="radio"]{
+	display: inline;
+}
+
+label {
+	margin: 1em 0;
+}
+
+/****** mandje *******/
+.mandje thead {
+	background: #804040;
+	color: white;
+}
+
+.mandje td {
+	padding: 0.2em;
+	border: 1px solid #3a2605;
+}
+
+.mandje th {
+	text-align: center;
+	padding: auto;
+}
+
+.numeriek{
+	text-align: right;
+}
+
+/**** Allerlei ****/
+.fout {
+	padding: 0 1em;
+	color: red;
+	font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 500px) {
+	nav h1 {
+		color: #3a2605;
+	}
+}

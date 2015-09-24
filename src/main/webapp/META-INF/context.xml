@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context path="/wereldwijnen">
-	<Resource 	name="jdbc/wereldwijnen"
-				type="javax.sql.DataSource"
-				username="cursist" password="cursist"
-				driverClassName="com.musql.jdbc.Driver"
-				url="jdbc:mysql://Localhost/wereldwijnen"
-				CloseMethod="close"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<Context path='/wereldwijnen'>
+	<Resource name='jdbc/wereldwijnen' type='javax.sql.DataSource'
+		username='cursist' password='cursist' driverClassName='com.mysql.jdbc.Driver'
+		url='jdbc:mysql://localhost/wereldwijnen' closeMethod='close' />
 </Context>

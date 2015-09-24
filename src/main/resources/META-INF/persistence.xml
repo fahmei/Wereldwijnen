@@ -11,6 +11,13 @@
 			java:/comp/env/jdbc/wereldwijnen
 		</non-jta-data-source>
 
+		<class>be.vdab.entities.BestelBon</class>
+		<class>be.vdab.entities.Land</class>
+		<class>be.vdab.entities.Soort</class>
+		<class>be.vdab.entities.Wijn</class>
+		<class>be.vdab.valueobjects.BestelbonLijn</class>
+		<class>be.vdab.valueobjects.Adres</class>
+		
 
 		<properties>
 			<property name='hibernate.show_sql' value='true' />
